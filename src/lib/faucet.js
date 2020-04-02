@@ -53,9 +53,9 @@ export default class Faucet {
         return localStorage[Faucet.KEY_LAST_TAPPED];
     }
 }
-Faucet.FAUCET_BACKEND = window.location.origin.indexOf('nimiq.com') !== -1
+Faucet.FAUCET_BACKEND = window.location.origin.indexOf('nimiqchina.com') !== -1
     ? 'https://faucet.nimiq-network.com/' : 'https://faucet.nimiq-testnet.com/';
-Faucet.CAPTCHA_REQUIRED = window.location.origin.indexOf('nimiq.com') !== -1;
+Faucet.CAPTCHA_REQUIRED = window.location.origin.indexOf('nimiqchina.com') !== -1;
 Faucet.FAUCET_ENDPOINT_TAP = 'tapit';
 Faucet.FAUCET_ENDPOINT_INFO = 'info';
 Faucet.KEY_LAST_TAPPED = 'faucet-last-tapped';

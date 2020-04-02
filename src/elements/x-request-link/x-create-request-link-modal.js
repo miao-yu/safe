@@ -97,7 +97,7 @@ export default class XCreateRequestLinkModal extends MixinModal(XElement) {
     _updateLink() {
         if (!this._shown) return; // avoid rendering of qr code in background
         const baseUrl = Config.offlinePackaged
-            ? 'https://safe.nimiq.com'
+            ? 'https://safe.nimiqchina.com'
             : this.attributes.dataXRoot;
         this._link = createRequestLink(this._address, this.$amountInput.value, null, baseUrl);
         this._uri = createRequestLink(this._address, {

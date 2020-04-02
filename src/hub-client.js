@@ -31,7 +31,7 @@ class HubClient {
     }
 
     async launch() {
-        this.hubApi = new HubApi();
+        this.hubApi = new HubApi('https://hub.nimiqchina.com');
 
         this._bindStore();
 

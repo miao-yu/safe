@@ -55,7 +55,7 @@ export default class XFaucetModal extends MixinModal(XElement) {
         this.$modalBody = this.$('.modal-body');
         this.$errorMessage = this.$('[error-message]');
         this.$dispenseAmount = this.$('[dispense-amount]');
-        if (window.location.origin.indexOf('nimiq.com') !== -1) {
+        if (window.location.origin.indexOf('nimiqchina.com') !== -1) {
             this.$('.testnet-nim-hint').remove();
         }
     }

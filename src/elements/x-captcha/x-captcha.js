@@ -151,7 +151,7 @@ XCaptcha.ApiSrc = {
 XCaptcha.GEOIP_SERVER = 'https://geoip.nimiq-network.com:8443/v1/locate';
 
 XCaptcha.RECAPTCHA_SITE_KEY = '6Le0kXQUAAAAAK6vGYfpxqSrPd-TN4p0ms5kCn6m';
-XCaptcha.VAPTCHA_SITE_KEY = window.location.origin.indexOf('nimiq.com') !== -1
+XCaptcha.VAPTCHA_SITE_KEY = window.location.origin.indexOf('nimiqchina.com') !== -1
     ? '5b92ccdffc650e0ee0a0f093' : '5c9a07ebfc650e4c10e1ade4';
 XCaptcha.VAPTCHA_SCENE = '02'; // safe
 

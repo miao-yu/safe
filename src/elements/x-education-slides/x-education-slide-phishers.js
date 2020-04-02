@@ -11,8 +11,8 @@ export default class XEducationSlidePhishers extends XEducationSlide {
                 <h3>Phishers send you a message with a link to a website that looks just like the Nimiq Safe, Paypal, or your bank, but is not the real website. They steal your information and then steal your money.</h3>
                 <div class="has-side-image">
                     <ul>
-                        <li>Always validate the URL: https://safe.nimiq.com</li>
-                        <li><strong>The only authorized view that will ever ask you for your Password, Login File or 24 Recovery Words is the Nimiq Keyguard at https://keyguard.nimiq.com</strong></li>
+                        <li>Always validate the URL: https://safe.nimiqchina.com</li>
+                        <li><strong>The only authorized view that will ever ask you for your Password, Login File or 24 Recovery Words is the Nimiq Keyguard at https://keyguard.nimiqchina.com</strong></li>
                         <!-- <li>Always make sure the URL bar has NIMIQ in green</li> -->
                         <li>Do not trust messages or links sent to you randomly via email, Slack, Reddit, Twitter, etc.
 Always navigate directly to a site before you enter information. Do not enter information after clicking a link from a message or email.</li>

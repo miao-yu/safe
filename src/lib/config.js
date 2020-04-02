@@ -19,7 +19,7 @@ export default class Config {
         if (Config.offlinePackaged) return 'main';
 
         switch (Config.tld) {
-            case 'nimiq.com': return 'main';
+            case 'nimiqchina.com': return 'main';
             case 'nimiq-testnet.com': return 'test';
             default: return 'test'; // Set this to 'test', 'bounty', or 'dev' for localhost development
         }
@@ -29,8 +29,8 @@ export default class Config {
         if (Config.offlinePackaged) return Config.src('keyguard') + '/nimiq.js';
 
         switch (Config.tld) {
-            case 'nimiq.com': return 'https://cdn.nimiq.com/v1.4.1/nimiq.js';
-            default: return 'https://cdn.nimiq-testnet.com/v1.4.1/nimiq.js'; // TODO make https://cdn.nimiq.com/v1.4.1/nimiq.js the default
+            case 'nimiqchina.com': return 'https://cdn.nimiqchina.com/v1.4.1/nimiq.js';
+            default: return 'https://cdn.nimiq-testnet.com/v1.4.1/nimiq.js'; // TODO make https://cdn.nimiqchina.com/v1.4.1/nimiq.js the default
         }
     }
 
@@ -42,14 +42,14 @@ export default class Config {
         if (Config._devMode) return Config._devMode;
 
         switch (Config.tld) {
-            case 'nimiq.com': return false;
+            case 'nimiqchina.com': return false;
             case 'nimiq-testnet.com': return false;
             default: return true;
         }
     }
 
     static get productionMode() {
-        if (Config.tld === 'nimiq.com') return true;
+        if (Config.tld === 'nimiqchina.com') return true;
         return false;
     }
 
